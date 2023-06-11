@@ -8,7 +8,6 @@ function App() {
       <MainLayout>
         <TopSection />
         <About />
-        <Competition />
       </MainLayout>
     </>
   );
