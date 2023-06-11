@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "antd";
 import "../css/TopSection.css";
 import "../css/bganimation.scss";
-
+import logo from "../assets/infin8logofrowebsite.png";
 class TopSection extends React.Component {
   render() {
     return (
@@ -18,8 +18,8 @@ class TopSection extends React.Component {
           <div className="Image">
             <img
               className="infin8-logo"
-              src={"../assets/infin8logofrowebsite.png"}
-              alt=""
+              src= {logo}
+              alt="logo"
             />
           </div>
           <div className="wrapper">
